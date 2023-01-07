@@ -37,6 +37,7 @@ async function fetchImage() {
         errorMessageEl.style.display = "block";
         errorMessageEl.innerHTML="An error happened, try again later";
         btnEl.style.display="block";
+        galleryEl.style.display="none";
     }}
 
 btnEl.addEventListener("click", fetchImage);
